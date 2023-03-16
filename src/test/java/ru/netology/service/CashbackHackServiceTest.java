@@ -22,4 +22,10 @@ public  class CashbackHackServiceTest {
         Assert.assertEquals(service.remain(1500), 500);
 
     }
+    @Test
+    public void shouldCount1Test4() {
+        CashbackHackService service = new CashbackHackService();
+        Assert.assertEquals(service.remain(1000), 0);
+
+    }
 }
